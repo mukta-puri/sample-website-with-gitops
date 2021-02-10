@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FAQ - Sample Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css"/>
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="uk-position-relative">
+            <div class="uk-position-top">
+                @@include('./includes/header.html')
+                @@include('./includes/faq.html')
+                @@include('./includes/footer.html')
+            </div>
+        </div>
+        <script src="scripts/uikit.min.js"></script>
+        <script src="scripts/uikit-icons.min.js"></script>
+        <!--removeIf(production)-->
+        <script src="http://localhost:8010/livereload.js"></script>
+        <!--endRemoveIf(production)-->
+    </body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "sampleuikitsitegitops",
+  "version": "1.0.0",
+  "description": "Sample UiKit Website with GitOps",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "publish": "gulp publish",
+    "serve": "node server.js",
+    "watch": "gulp",
+    "open": "open http://localhost:3000",
+    "start": "npm-run-all --parallel serve watch open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mupuri/SampleUiKitSiteGitOps.git"
+  },
+  "author": "mupuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muputi/SampleUiKitSiteGitOps/issues"
+  },
+  "homepage": "https://github.com/mupuri/SampleUiKitSiteGitOps#readme",
+  "dependencies": {
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-file-include": "2.3.0",
+    "gulp-format-html": "1.2.5",
+    "gulp-livereload": "4.0.2",
+    "gulp-remove-code": "3.0.4",
+    "npm-run-all": "4.1.5",
+    "static-server": "2.2.1"
+  }
+}
