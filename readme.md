@@ -40,7 +40,7 @@ The [GitHub action](.github/workflows/publish.yml) in this repo does the followi
 
 
 ## Hosting
-The sample website is hosted for free using GitHub Pages: https://mupuri.github.io/sample-website-prod/
+The sample website is hosted for free using GitHub Pages here: https://mupuri.github.io/sample-website-prod/
 
 GitHub pages was chosen to host the sample website because it is completely free, provides HTTPS, does not have any hard bandwidth limits and allows hosting sites that are up to 1GB.
 
